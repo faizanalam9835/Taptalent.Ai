@@ -5,7 +5,7 @@ let socket;
 
 export const getSocket = () => {
   if (!socket) {
-    socket = io("http://localhost:4000", {
+    socket = io("https://taptalent-ai-1-a237.onrender.com", {
       transports: ["websocket"],
       autoConnect: true
     });
