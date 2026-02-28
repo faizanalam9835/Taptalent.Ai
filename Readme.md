@@ -117,18 +117,6 @@ CREATE TABLE chat_messages (
 );
 
 
-====================================================
-ENVIRONMENT VARIABLES
-====================================================
-
-Backend (.env):
-
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=anonymous_chat
-DB_USER=postgres
-DB_PASSWORD=your_password
-PORT=4000
 
 
 
@@ -140,7 +128,7 @@ LOCAL SETUP
 
 1. Clone the repository
 
-git clone <repository-url>
+git clone <https://github.com/faizanalam9835/Taptalent.Ai>
 
 
 2. Backend setup
@@ -181,21 +169,7 @@ HOW MATCHMAKING WORKS
    - UI resets to idle state
 
 
-====================================================
-COMMON ISSUES & FIXES
-====================================================
 
-Problem: psql command not found
-Fix: Use pgAdmin instead of CLI
-
-Problem: relation does not exist
-Fix: Run SQL schema manually in pgAdmin
-
-Problem: Searching forever
-Fix: Only one user online, open app in two browsers
-
-Problem: Multiple socket connections
-Fix: Use singleton socket instance
 
 
 ====================================================
