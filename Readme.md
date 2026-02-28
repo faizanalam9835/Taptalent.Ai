@@ -131,9 +131,7 @@ DB_PASSWORD=your_password
 PORT=4000
 
 
-Frontend (.env):
 
-VITE_SOCKET_URL=http://localhost:4000
 
 
 ====================================================
@@ -152,7 +150,7 @@ npm install
 node server.js
 
 Backend will run on:
-http://localhost:4000
+https://taptalent-ai-1-a237.onrender.com
 
 
 3. Frontend setup
@@ -162,7 +160,7 @@ npm install
 npm run dev
 
 Frontend will run on:
-http://localhost:5173
+https://taptalent-ai-chi.vercel.app/
 
 
 ====================================================
@@ -214,12 +212,6 @@ Backend (Render):
    node server.js
 
 
-Frontend (Vercel):
-
-1. Import GitHub repository
-2. Add environment variable:
-   VITE_SOCKET_URL=https://your-backend-url
-3. Deploy
 
 
 ====================================================
